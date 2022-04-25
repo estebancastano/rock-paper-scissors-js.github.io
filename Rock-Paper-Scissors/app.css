@@ -1,0 +1,51 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+    background: #42DE3D 70%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size:60px;
+}
+
+.buttons{
+    font-family: 'Catamaran';
+    justify-content: center;
+    border:none;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 60px;
+    background: #3D42DE;
+    border-radius: 15px ;
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: 0 9px #999;
+    color:white;
+}
+
+.buttons:hover{
+   background: #DE3D42;
+   transition: .2s;
+}
+
+.buttons:active {
+    background-color: #862223;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.button-container{
+    text-align: center;
+}
+
+.choices-container{
+    margin-top: 70px;
+}
